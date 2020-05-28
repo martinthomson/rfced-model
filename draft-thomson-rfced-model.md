@@ -284,15 +284,14 @@ to REP requirements, processes, and procedures.
 ## The Needs of Different Streams
 
 The singular group responsible for evolution of the RFC Series as a whole is
-a simplification.  It is important to note that the needs of different streams
-can be different.
+a simplification that is made to reduce contention in setting strategic goals.
+It is important to note that the needs of different streams can be different.
 
-Several additional factors motivate a single group that sets strategy.
-Historically, the IETF stream is responsible for a large pproportion of the
-documents in the series.  That is unlikely to change and experience has shown
-that other streams are - for the most part - willing to accept that strategic
-direction is largely dictated by the needs of the most prolific user of the REP
-service.
+Several factors motivate a single group that sets strategy.  Historically, the
+IETF stream is responsible for a large proportion of the documents in the
+series.  That is unlikely to change and experience has shown that other streams
+are - for the most part - willing to accept that strategic direction is largely
+dictated by the needs of the most prolific user of the REP service.
 
 It is important that each stream retain control over the content of documents
 that are published on that stream.  Streams currently appoint a stream manager
