@@ -82,9 +82,9 @@ system and to attribute responsibilities (and associated authority) to each.
 {::boilerplate bcp14}
 
 
-# Base Model
+# Abstract Model
 
-The highest-level abstraction is shown in {{base-model}}.
+The highest-level abstraction is shown in {{model-base}}.
 
 ~~~
 +------+ +------+ +------+ +------+          
@@ -103,7 +103,7 @@ The highest-level abstraction is shown in {{base-model}}.
                 |                           
                 v                           
 ~~~
-{: #base-model title="Simplified RFC Production Model"}
+{: #model-base title="Simplified RFC Production Model"}
 
 In this model, each of the four document streams produce documents that are
 approved for publication according to the processes of those streams. Each
