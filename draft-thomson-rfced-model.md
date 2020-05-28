@@ -1,7 +1,7 @@
 ---
-title: "A Proposed Client-Vendor Relationships for RFC Editing and Publication"
-abbrev: "RFC Client-Vendor"
-docname: draft-thomson-rfced-customer-model-latest
+title: "A Proposed Model for RFC Editing and Publication"
+abbrev: "RFC Model"
+docname: draft-thomson-rfced-model-latest
 category: info
 
 ipr: trust200902
