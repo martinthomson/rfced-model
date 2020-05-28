@@ -1,7 +1,7 @@
 <note title="Discussion Venues" removeInRFC="true">
 <t>Discussion of this document takes place on the
-  RFCED Working Group mailing list (rfced@ietf.org),
-  which is archived at <eref target="https://mailarchive.ietf.org/arch/browse/rfced/">https://mailarchive.ietf.org/arch/browse/rfced/</eref>.</t>
+  RFC Editor Futures program mailing list (rfced-future@iab.org),
+  which is archived at <eref target="https://mailarchive.ietf.org/arch/browse/rfced-future/">https://mailarchive.ietf.org/arch/browse/rfced-future/</eref>.</t>
 <t>Source for this draft and an issue tracker can be found at
   <eref target="https://github.com/martinthomson/rfced-model">https://github.com/martinthomson/rfced-model</eref>.</t>
 </note>
