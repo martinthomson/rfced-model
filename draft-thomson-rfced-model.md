@@ -24,9 +24,9 @@ normative:
 informative:
    RPC-SA:
      title: "RFC Production Center Services Agreement"
-     title: "https://iaoc.ietf.org/documents/ISOC-AMS-RPC-1Jan2016-Agreement-V1-Executed-PUBLIC.pdf"
+     target: "https://iaoc.ietf.org/documents/ISOC-AMS-RPC-1Jan2016-Agreement-V1-Executed-PUBLIC.pdf"
      author:
-       - "IAOC"
+       - ins: "IAOC"
      date: 2016-01-01
 
 
