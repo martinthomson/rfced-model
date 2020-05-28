@@ -87,21 +87,21 @@ system and to attribute responsibilities (and associated authority) to each.
 The highest-level abstraction is shown in {{model-base}}.
 
 ~~~
-+------+ +------+ +------+ +------+          
-| IETF | | IRTF | | IAB  | | Ind. |          
++------+ +------+ +------+ +------+
+| IETF | | IRTF | | IAB  | | Ind. |
 |Stream| |Stream| |Stream| |Stream|
-+------+ +------+ +------+ +------+          
-   |        |        |        |              
-   |        |        |        |    Approved  
-   |        |        |        |    Documents 
-   v        v        v        v              
-+---------------------------------+          
-|  RFC Editing and Publication    |          
-+---------------------------------+          
-                |                           
-                |  RFCs                     
-                |                           
-                v                           
++------+ +------+ +------+ +------+
+   |        |        |        |
+   |        |        |        |    Approved
+   |        |        |        |    Documents
+   v        v        v        v
++---------------------------------+
+|  RFC Editing and Publication    |
++---------------------------------+
+                |
+                |  RFCs
+                |
+                v
 ~~~
 {: #model-base title="Simplified RFC Production Model"}
 
@@ -149,7 +149,7 @@ This results in evolving the basic model as shown in {{model-rsoc}}.
    |                       |     | Streams |  |  |  |
    |          +------+     |     +---------+--+--+--+
    +--------->| RSOC |     |          |     |  |  |
- Oversight    +------+     |          | Documents |  
+ Oversight    +------+     |          | Documents |
                  |      Contract      v     v  v  v
                  |         |     +------------------+
                  |         +---->|   RFC Editing    |
@@ -255,7 +255,7 @@ This results in the model shown in {{model-rse}}.
    |             v         |     | Streams |  |  |  |
    |          +------+     |     +---------+--+--+--+
    +--------->| RSOC |     |          |     |  |  |
- Oversight    +------+     |          | Documents |  
+ Oversight    +------+     |          | Documents |
                  |      Contract      v     v  v  v
                  |         |     +------------------+
                  |         +---->|   RFC Editing    |
@@ -406,6 +406,13 @@ The RSOC is responsible for selecting their own management, as outlined in
 Many documents involve actions for IANA that are processed as part of the REP
 processing. These processes need to be captured and documented.
 
+This draft describes a model whereby the RFC Series Advisory Group and the RFC
+Series Editorial Board have no future as these are functions that serve the a
+role that does not exist in this model.  These august bodies embody a great deal
+of collected wisdom regarding the RFC Series.  It is this author's earnest hope
+that these individuals will continue to lend their efforts in the form of
+contributions to the development of strategy.
+
 
 # Notable Differences from Version 2
 
@@ -428,6 +435,12 @@ responsible for turning strategy into requests and the REP is responsible for
 executing these requests. As the RPC (or publisher) was previously ultimately
 responsible for execution of any strategy, the functional difference is likely
 minimal.
+
+Moving away from a model where a single individual is involved in setting
+direction for the RFC Series is significant.  This proposal vests that control
+in a consensus-based body instead, which means that decisive action is likely no
+longer a feature of this system.  As the emphasis of the group is on longer-term
+strategy, this is not anticipated to be a practical problem.
 
 This proposal combines the RFC Production Center and RFC Publisher functions.
 These have been conjoined in practice for many years already and so this merely
