@@ -56,9 +56,10 @@ documents that are approved for publication by one of four streams (IETF, IRTF,
 IAB, and Idependent Submissions). The output is an RFC.
 
 Generally speaking, this system is successful if RFCs are produced at a rate
-approximating the rate that documents are approved for publication and the
-quality of those documents is sufficient to serve the ends of the consumers of
-those documents.
+approximating the rate that documents are approved for publication.  In addition
+to managing throughput, the overall latency should be minimized and the quality
+of documents should be sufficient to serve the ends of the consumers of those
+documents.
 
 In practice, the demands placed on the editing and publication process mean that
 this function is quite involved. Furthermore, the exact goals that this system
