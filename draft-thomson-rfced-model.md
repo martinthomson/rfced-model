@@ -124,11 +124,10 @@ The entity that performs the REP function holds contracts with the IETF LLC, who
 also provides payment for those contracted services.  This means that the REP
 function is ultimately answerable to the IETF LLC with respect to performance.
 
-In practice, the IETF LLC delegates some of its  authority to another body.
+In practice, the IETF LLC delegates some of its authority to another body.
 This allows the IETF LLC to rely on the expertise of volunteers from the
 community in performing oversight.  The IETF LLC currently delegates this
-function to the RFC Series Oversight Committee (RSOC), which is formally an
-activity of the IAB.
+function to the RFC Series Oversight Committee (RSOC) via the IAB.
 
 The RSOC is given some authority over negotiating performance targets for the
 REP and the responsibility of ensuring that those targets are monitored.  In
