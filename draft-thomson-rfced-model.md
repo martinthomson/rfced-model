@@ -7,6 +7,7 @@ category: info
 ipr: trust200902
 area: IAB
 workgroup: rfced-future
+updates: 4844, 6635
 keyword: Internet-Draft
 
 stand_alone: yes
@@ -88,21 +89,18 @@ system and to attribute responsibilities (and associated authority) to each.
 The highest-level abstraction is shown in {{model-base}}.
 
 ~~~
-+------+ +------+ +------+ +------+
-| IETF | | IRTF | | IAB  | | Ind. |
-|Stream| |Stream| |Stream| |Stream|
-+------+ +------+ +------+ +------+
-   |        |        |        |
-   |        |        |        |    Approved
-   |        |        |        |    Documents
-   v        v        v        v
-+---------------------------------+
-|  RFC Editing and Publication    |
-+---------------------------------+
-                |
-                |  RFCs
-                |
-                v
+  +-------------+        +-------------+
+  | IETF Stream +------->+             +----->
+  +-------------+   D    |             |
+  +-------------+   o    |             |
+  | IRTF Stream +---c--->+ RFC         +-----> R
+  +-------------+   u    | Editing     |       F
+  +-------------+   m    | and         |       C
+  | IAB Stream  +---e--->+ Publication +-----> s
+  +-------------+   n    |             |
+  +-------------+   t    |             |
+  | Independent +---s--->+             +----->
+  +-------------+        +-------------+
 ~~~
 {: #model-base title="Simplified RFC Production Model"}
 
@@ -124,77 +122,71 @@ The entity that performs the REP function holds contracts with the IETF LLC, who
 also provides payment for those contracted services.  This means that the REP
 function is ultimately answerable to the IETF LLC with respect to performance.
 
-In practice, the IETF LLC delegates some of its authority to another body.
-This allows the IETF LLC to rely on the expertise of volunteers from the
-community in performing oversight.  The IETF LLC currently delegates this
-function to the RFC Series Oversight Committee (RSOC) via the IAB.
+In practice, the IETF LLC delegates some of its authority to another body. This
+allows the IETF LLC to rely on the expertise of volunteers from the community
+in performing oversight. The IETF LLC currently delegates this function to the
+RFC Series Oversight Committee (RSOC) via the IAB. This indirection has caused
+some problems and this document proposes that oversight be a function that the
+IETF LLC oversees directly.
 
-The RSOC is given some authority over negotiating performance targets for the
-REP and the responsibility of ensuring that those targets are monitored.  In
-conducting this task, the RSOC answers to the IAB.
+The IETF LLC is therefore given direct authority over negotiating performance
+targets for the REP and the responsibility of ensuring that those targets are
+monitored. The IETF LLC is empowered to appoint a manager or to convene a
+committee that is responsible for this oversight function.
 
-Community members who have concerns about the performance of the REP can request
-that the RSOC investigate the matter.  Concerns about the conduct of the RSOC
-can be raised through appeal to the IAB.
+Community members who have concerns about the performance of the REP can
+request that the IETF LLC investigate the matter. If the IETF LLC opts to
+delegate the oversight function, concerns can be raised with the IETF LLC. The
+IETF LLC is ultimately responsible to the community via the mechanisms outlined
+in its charter {{?LLC=RFC8711}}.
 
 This results in evolving the basic model as shown in {{model-rsoc}}.
 
 ~~~
-                        +------+
-+------+                | IETF |
-| IAB  |                | LLC  |
-+------+                +------+
-   |                       |
-   |                       |     +---------+--+--+--+
-   |                       |     | Streams |  |  |  |
-   |          +------+     |     +---------+--+--+--+
-   +--------->| RSOC |     |          |     |  |  |
- Oversight    +------+     |          | Documents |
-                 |      Contract      v     v  v  v
-                 |         |     +------------------+
-                 |         +---->|   RFC Editing    |
-                 |               |       and        |
-                 +-------------->|   Publication    |
-                   Operational   +------------------+
-                   Oversight              |
-                                          | RFCs
-                                          v
+                              +------+
+                              | IETF |
+                              | LLC  |
+                              +------+
+                                 |
+                                 | Contract &
+                                 | Oversight
+                                 v
++-------------+        +-------------+
+| IETF Stream +------->+             +----->
++-------------+   D    |             |
++-------------+   o    |             |
+| IRTF Stream +---c--->+ RFC         +-----> R
++-------------+   u    | Editing     |       F
++-------------+   m    | and         |       C
+| IAB Stream  +---e--->+ Publication +-----> s
++-------------+   n    |             |
++-------------+   t    |             |
+| Independent +---s--->+             +----->
++-------------+        +-------------+
 ~~~
 {: #model-rsoc title="Oversight and Funding Functions"}
 
 This shows the IETF LLC having budgetary and contractual oversight over the
-REP. Aspects of oversight that relate to operations, such as performance
-relative to agreed objectives, are delegated by the IETF LLC to the RSOC.
-
-Note:
-
-: Not shown on this diagram, or any others in this document, are the informal
-  relationships that are likely necessary for this system to work optimally.
-  It is expected that all involved parties will routinely collaborate and
-  share information.
+REP.
 
 
-## RSOC Constitution
+## IETF LLC Delegation of Oversight Function
 
-The current debate has skirted this topic, but the constitution of the
-RSOC is quite unclear, both in terms of the scope of their responsibilities and
-authority and the way in which the community has input to the process.
+The current organization tasks the RSOC with responsibility for oversight. This
+has lead to numerous questions about the extent of authority delegated to the
+RSOC and the responsibilities of various entities that the RSOC is tasked with
+interacting with.
 
-In my opinion it would be cleaner if the role performed by RSOC was limited to
-the selection of REP, the negotiation of the terms of that contract, and
-oversight, all based on a set of guidelines that was owned and developed by some
-a more open and collaborative process.
+This document avoids these questions by placing this authority directly with
+the IETF LLC. However, the oversight function is one that the IETF LLC is
+expected to delegate, either to an individual or committee.
 
-Recent events have shown that there is considerable pressure on the RSOC.  Some
-of that pressure is produced by a tension between the need for them to manage
-confidential aspects of negotiations, but to ensure the appropriate level of
-community involvement in setting policy.  The result is then either some mix of
-a tendency toward overreach of authority and lack of transparency or a failure
-to deliver on any sort of strategy.
-
-Changing the RSOC function to only require interpretation of a policy that was
-set by some other process is likely to avoid some of these issues.  To set this
-policy, a function is required to maintain that policy.
+Any delegation would ideally result in the creation of a a document governing
+how the delegation was structured. This is not that document, but this assumes
+that the person or persons who are given oversight responsibility would be
+responsible for managing contract and performance for the RSEP. Any appeal or
+dispute with the actions of this individual or committee would then be taken up
+with the IETF LLC.
 
 
 # Evolution and Setting Policies
@@ -215,8 +207,8 @@ that strategic goals for the RFC Series are developed using the working group
 process {{!WG=RFC2418}} used in the IETF.
 
 Concretely, this proposes forming a RFC Series Evolution program of the IAB that
-uses the auspices of an IAB program, similar to that proposed in
-{{?RSEME=I-D.flanagan-rseme}}.  This results in a group that follows
+uses the auspices of an IAB program, one that closely follows the model proposed
+in {{?RSEME=I-D.flanagan-rseme}}.  This results in a group that follows
 {{!WG=RFC2418}} procedures, with the exception that the functions performed by
 the IESG are instead performed by the IAB.  In particular, selection of chairs
 and appeals regarding the execution of the process are directed to the IAB to
@@ -227,44 +219,52 @@ other policies.  Again, existing IETF processes - collectively referred to in
 the Note Well - are well-suited to this task.
 
 Any strategic direction that is produced by this process will be documented in
-RFCs.  These will need to be framed as high-level goals and priorities rather
-than strict requirements.  It will be up to the RSOC to negotiate with the REP
-function about the execution for any changes.  The RSOC will need to coordinate
-with the IETF LLC in managing costs, legal risks, and other factors that might
-affect the execution of strategy.
+RFCs. These will need to be framed as high-level goals and priorities rather
+than strict requirements. It will be up to the IETF LLC - or their delegate -
+to negotiate with the REP function about the execution for any changes. In
+negotiating the execution of strategy, the IETF LLC is expected to factor in
+relevant factors such as cost, legal constraints, or schedule.
 
-The RSOC is then responsible for ensuring that the plans for implementation of
-strategic goals is published and available to the community.
+The IETF LLC is also responsible for ensuring that the plans for implementation
+of strategic goals is published and available to the community.
 
 This results in the model shown in {{model-rse}}.
 
 ~~~
-           +------------+
- Oversight | RFC Series |
-   +------>| Evolution  |
-   |       | Program    |
-   |       +------------+
-   |             |
-   |             |
-   |             |      +------+
-+------+         |      | IETF |
-| IAB  |     Strategy   | LLC  |
-+------+         |      +------+
-   |             |         |
-   |             |         |     +---------+--+--+--+
-   |             v         |     | Streams |  |  |  |
-   |          +------+     |     +---------+--+--+--+
-   +--------->| RSOC |     |          |     |  |  |
- Oversight    +------+     |          | Documents |
-                 |      Contract      v     v  v  v
-                 |         |     +------------------+
-                 |         +---->|   RFC Editing    |
-                 |               |       and        |
-                 +-------------->|   Publication    |
-                   Operational   +------------------+
-                   Oversight              |
-                   + Requirements         | RFCs
-                                          v
+                              +------+
+                              | IAB  |
+                              +--+---+
+                                 |
+                                 | Oversight
+                                 v
+                           +-----+------+
+                           | RFC Series |
+                           | Evolution  |
+                           | Program    |
+                           +-----+------+
+                                 |
+                                 | Strategy
+                                 v
+                              +--+---+
+                              | IETF |
+                              | LLC  |
+                              +--+---+
+                                 |
+                                 | Contract &
+                                 | Oversight
+                                 v
++-------------+        +---------+---+
+| IETF Stream +------->+             +----->
++-------------+   D    |             |
++-------------+   o    |             |
+| IRTF Stream +---c--->+ RFC         +-----> R
++-------------+   u    | Editing     |       F
++-------------+   m    | and         |       C
+| IAB Stream  +---e--->+ Publication +-----> s
++-------------+   n    |             |
++-------------+   t    |             |
+| Independent +---s--->+             +----->
++-------------+        +-------------+
 ~~~
 {: #model-rse title="Evolution and Strategy Additions"}
 
@@ -302,8 +302,8 @@ stream.  This document proposes that this aspect of the role continue.
 Stream managers are also involved in discussion of changes to REP processes.
 Rather than deal with issues of REP processes directly, stream managers are
 expected to initiate discussion or make proposals to the RFC Series Evolution
-program.  It is expected that stream managers will be active participants - and
-not chairs - in this program.
+program. To avoid conflicts of interest, it is expected that stream managers
+will be active participants - and not chairs - in this program.
 
 
 # Tooling
@@ -329,32 +329,40 @@ Reflecting that arrangement, we have the final composition of functions as
 shown in {{model-final}}.
 
 ~~~
-           +------------+
- Oversight | RFC Series |  Participate  +-----------+
-   +------>| Evolution  |<--------------| Community |-----+
-   |       | Program    |               +-----------+     |
-   |       +------------+                                Use
-   |             |                                      Tools
-   |             |                                        v
-   |             |      +------+                   +-------------+
-+------+         |      | IETF | Contract(s)       |    Tools    |
-| IAB  |     Strategy   | LLC  |------------------>| Maintenance |
-+------+         |      +------+                   +-------------+
-   |             |         |                              ^
-   |             |         |     +---------+--+--+--+     |
-   |             v         |     | Streams |  |  |  |     |
-   |          +------+     |     +---------+--+--+--+     |
-   +--------->| RSOC |     |          |     |  |  |      Use
- Oversight    +------+     |          | Documents |     Tools
-                 |      Contract      v     v  v  v       |
-                 |         |     +------------------+     |
-                 |         +---->|   RFC Editing    |     |
-                 |               |       and        |-----+
-                 +-------------->|   Publication    |
-                   Operational   +------------------+
-                   Oversight              |
-                   + Requirements         | RFCs
-                                          v
+                                +------+
+                                | IAB  |
+                                +--+---+
+                                   |
+                                   | Oversight
+                                   v
+                             +-----+------+
++-------------+ Participate  | RFC Series |
+|  Community  +------------->+ Evolution  |
++-----+-------+              | Program    |
+      ^                      +-----+------+
+      |                            |
+      | Provide Tools              | Strategy
+      |                            v
++-----+-------+                 +--+---+
+|    Tools    |     Contract(s) | IETF |
+| Maintenance +<----------------+ LLC  |
++-----+-------+                 +--+---+
+      |                            |
+      +--Provide-Tools-------+     | Contract &
+                             |     | Oversight
+                             v     v
+  +-------------+        +---+-----+---+
+  | IETF Stream +------->+             +----->
+  +-------------+   D    |             |
+  +-------------+   o    |             |
+  | IRTF Stream +---c--->+ RFC         +-----> R
+  +-------------+   u    | Editing     |       F
+  +-------------+   m    | and         |       C
+  | IAB Stream  +---e--->+ Publication +-----> s
+  +-------------+   n    |             |
+  +-------------+   t    |             |
+  | Independent +---s--->+             +----->
+  +-------------+        +-------------+
 ~~~
 {: #model-final title="Final Model"}
 
@@ -377,11 +385,25 @@ This model does not specify strong requirements on the management of any of the
 functions it describes. It is expected that each function identified here will
 be managed in a manner appropriate to the function that it serves.
 
-The structure of the RFC Series Evolution program requires that the group have
-a chair or chairs. This dictates how that group is managed. Other functions are
-expected to provide management as part of that function. The oversight body for
-each function is responsible for ensuring that management of that function is
-effective.
+Any choice by the IETF LLC to delegate oversight responsibility to a committee
+might require that the committee will need decision-making processes. The IETF
+LLC is ultimately responsible for ensuring that these processes are appropriate
+and effective.
+
+The choice of leadership for the RFC Series Evolution program could become more
+important with a move to a system that lacks a single figurehead. Two measures
+are suggested to mitigate the potential for this position to become a function
+replacement for the RSE position:
+
+* The IAB should appoint at least two co-chairs. This is already good practice
+for working groups as it provides redundancy in case of absence or conflict of
+interest.
+
+* The IAB should seek new chairs at regular intervals and seek to limit the
+period over which any one individual might hold a leadership position in the
+program.
+
+These are suggestions to the IAB only, not hard requirements.
 
 If the function of the REP is contracted to a single entity, it would be the
 responsibility of that entity to provide appropriate management. That
@@ -396,9 +418,6 @@ tools maintenance. Arranging for appropriate management, along with systems for
 establishing accountability to the community, enabling community contributions,
 and dealing with dispute or contention is left to the IETF LLC.
 
-The RSOC is responsible for selecting their own management, as outlined in
-[](https://www.iab.org/activities/programs/rfc-editor-program/rsoc-procedures/).
-
 
 # Other Involved Entities
 
@@ -411,6 +430,11 @@ role that does not exist in this model.  These august bodies embody a great deal
 of collected wisdom regarding the RFC Series.  It is this author's earnest hope
 that these individuals will continue to lend their efforts in the form of
 contributions to the development of strategy.
+
+This draft proposes that the RFC Series Oversight Committee (RSOC) be
+disbanded. Many of the functions provided by the RSOC are now an IETF LLC
+responsibility in this model. If the IETF LLC decides to form a committee, the
+experience of RSOC procedures and former personnel might be used as a resource.
 
 
 # Notable Differences from Version 2
@@ -429,10 +453,10 @@ their role by building community consensus, so this aspect of the role is
 essentially transferred to the chairs of the RFC Series Evolution program.
 
 Any responsibility for execution of RFC Series strategy that might have been
-the responsibility of a RFC Series Editor has been distributed: the RSOC is
-responsible for turning strategy into requests and the REP is responsible for
+the responsibility of a RFC Series Editor has been distributed: the IETF LLC is
+responsible for turning strategy into requests; the REP is responsible for
 executing these requests. As the RPC (or publisher) was previously ultimately
-responsible for execution of any strategy, the functional difference is likely
+responsible for execution of any strategy, the functional difference is
 minimal.
 
 Moving away from a model where a single individual is involved in setting
@@ -446,6 +470,25 @@ These have been conjoined in practice for many years already and so this merely
 formalizes a standing arrangement.
 
 
+# Documentation Requirements
+
+This model depends on the production of a document (or set of documents) that
+outlines the initial set of requirements for the operation of the REP. Much of
+this already exists in the form of previous service agreements {{RPC-SA}} and
+the expectation is that these documents can be adapted. These documents will
+become the resposibility of the IETF LLC.
+
+Over time, some of the material from service agreements and contract are
+expected to move to strategic documents maintained by the RFC Series Evolution
+program.
+
+The RFC Series Evolution program will be responsible for maintaining this
+document, along with other documents that describe the RFC Series, such as
+{{?MODEL}}, {{?RFC-SERIES=RFC6635}}, and {{?BOILERPLATE=RFC7841}}. Continuing
+publication of these documents on the IAB represents no change to existing
+practice.
+
+
 # Errors and Omissions
 
 This is a draft. At this stage, it is intended to just show the general outline
@@ -455,12 +498,6 @@ There are likely many errors, omissions, and inconsistencies.
 There are lots of small details in {{!MODEL}} that are still
 likely relevant and would need to be tweaked to fit within the proposed
 structure.
-
-This model depends on the production of a document (or set of documents) that
-outlines the initial set of requirements for the operation of the REP. Much of
-this already exists in the form of previous service agreements {{RPC-SA}} and
-the expectation is that these documents can be adapted. The RFC Series
-Evolution program is ultimately responsible for maintaining this documentation.
 
 
 # Security Considerations
