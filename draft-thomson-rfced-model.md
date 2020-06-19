@@ -309,8 +309,8 @@ will be active participants - and not chairs - in this program.
 # Tooling
 
 Producing an RFC relies heavily on tools that help automate many aspects of the
-process.  Tooling is likely to produce more consistency and better performance
-of the REP function.
+process.  Using tools contributes to consistency and better performance of the
+REP function.
 
 In one version of this model, the tools that are used by the REP function are
 the responsibility of the function.  However, the larger system benefits from a
