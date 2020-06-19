@@ -43,7 +43,7 @@ jobs:
       with:
         make: gh-pages
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        CI_HAS_WRITE_KEY: true
 
     - name: "Save HTML"
       uses: actions/upload-artifact@v2
