@@ -11,7 +11,7 @@ jobs:
     - name: "Get Date"
       id: date
       run: |
-        date +'::set-output name=date::%FT%T'
+        date "+::set-output name=date::%FT%T"
 
     - name: "Cache References"
       uses: actions/cache@v2
