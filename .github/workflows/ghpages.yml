@@ -1,10 +1,6 @@
 name: "Upload Editor's Copy"
 on: [push, pull_request]
 
-env:
-  KRAMDOWN_REFCACHEDIR: ~/.refcache
-  XML2RFC_REFCACHEDIR: ~/.refcache
-
 jobs:
   build:
     name: "Update Editor's Copy"
@@ -20,7 +16,7 @@ jobs:
     - name: "Cache References"
       uses: actions/cache@v2
       with:
-        path: ${{ env.HOME }}/.refcache
+        path: ${{ env.HOME }}/.cache/xml2rfc
         key: refcache-${{ steps.date.outputs.date }}
         restore-keys: |
           refcache-${{ steps.date.outputs.date }}
