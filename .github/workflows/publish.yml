@@ -23,7 +23,7 @@ jobs:
     - name: "Cache References"
       uses: actions/cache@v2
       with:
-        path: ${{ env.HOME }}/.cache/xml2rfc
+        path: ${{ steps.cache-setup.outputs.path }}
         key: refcache-${{ steps.date.outputs.date }}
         restore-keys: |
           refcache-${{ steps.date.outputs.date }}
