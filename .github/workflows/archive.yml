@@ -1,6 +1,7 @@
 name: "Archive Issues and Pull Requests"
 on:
-  schedule: '* * * * 0,2,4'
+  schedule:
+    - cron: '* * * * 0,2,4'
 
 jobs:
   build:
