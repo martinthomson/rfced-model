@@ -2,8 +2,8 @@ name: "Upload Editor's Copy"
 on: [push, pull_request]
 
 env:
-  KRAMDOWN_REFCACHEDIR: ${{ env.HOME }}/.refcache
-  XML2RFC_REFCACHEDIR: ${{ env.HOME }}/.refcache
+  KRAMDOWN_REFCACHEDIR: ~/.refcache
+  XML2RFC_REFCACHEDIR: ~/.refcache
 
 jobs:
   build:

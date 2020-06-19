@@ -4,8 +4,8 @@ on:
     tags: ['draft-*']
 
 env:
-  KRAMDOWN_REFCACHEDIR: ${{ env.HOME }}/.refcache
-  XML2RFC_REFCACHEDIR: ${{ env.HOME }}/.refcache
+  KRAMDOWN_REFCACHEDIR: ~/.refcache
+  XML2RFC_REFCACHEDIR: ~/.refcache
 
 jobs:
   build:
@@ -22,7 +22,7 @@ jobs:
     - name: "Cache References"
       uses: actions/cache@v2
       with:
-        path: ${{ env.HOME }}/.refcache
+        path: ${{ env.XML2RFC_REFCACHEDIR }}
         key: refcache-${{ steps.date.outputs.date }}
         restore-keys: |
           refcache-${{ steps.date.outputs.date }}
