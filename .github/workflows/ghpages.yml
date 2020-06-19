@@ -8,6 +8,20 @@ jobs:
     - name: "Checkout"
       uses: actions/checkout@v2
 
+    - name: "Get Date"
+      id: date
+      run: |
+        date +'::set-output name=date::%FT%T'
+
+    - name: "Cache References"
+      uses: actions/cache@v2
+      with:
+        path: /cache/xml2rfc
+        key: ref-${{ steps.date.outputs.date }}
+        restore-keys: |
+          ref-${{ steps.date.outputs.date }}
+          ref-
+
     - name: "Build Drafts"
       uses: martinthomson/i-d-template@v1
 
