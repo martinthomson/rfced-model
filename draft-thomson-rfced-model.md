@@ -1,6 +1,6 @@
 ---
 title: "A Proposed Model for RFC Editing and Publication"
-abbrev: "RFC Model"
+abbrev: "RFC Editor Model"
 docname: draft-thomson-rfced-model-latest
 category: info
 
