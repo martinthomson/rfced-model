@@ -495,9 +495,8 @@ This is a draft. At this stage, it is intended to just show the general outline
 of the model. As details are filled in, everything here is liable to change.
 There are likely many errors, omissions, and inconsistencies.
 
-There are lots of small details in {{!MODEL}} that are still
-likely relevant and would need to be tweaked to fit within the proposed
-structure.
+There are lots of small details in {{!MODEL}} that are still likely relevant and
+would need to be tweaked to fit within the proposed structure.
 
 
 # Security Considerations
