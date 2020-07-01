@@ -122,17 +122,18 @@ The entity that performs the REP function holds contracts with the IETF LLC, who
 also provides payment for those contracted services.  This means that the REP
 function is ultimately answerable to the IETF LLC with respect to performance.
 
-In practice, the IETF LLC delegates some of its authority to another body. This
-allows the IETF LLC to rely on the expertise of volunteers from the community
-in performing oversight. The IETF LLC currently delegates this function to the
-RFC Series Oversight Committee (RSOC) via the IAB. This indirection has caused
-some problems and this document proposes that oversight be a function that the
-IETF LLC oversees directly.
+Currently, the IETF LLC delegates some of its authority to another body. This
+allows the IETF LLC to rely on the expertise of volunteers from the community in
+performing oversight. The IETF LLC currently delegates this function to the RFC
+Series Oversight Committee (RSOC) via the IAB. This indirection has caused some
+problems and this document proposes that oversight be a function that the IETF
+LLC be responsible for, either directly or through a delegation process that is
+managed by the IETF LLC.
 
-The IETF LLC is therefore given direct authority over negotiating performance
-targets for the REP and the responsibility of ensuring that those targets are
-monitored. The IETF LLC is empowered to appoint a manager or to convene a
-committee that is responsible for this oversight function.
+The IETF LLC therefore has authority over negotiating performance targets for
+the REP and the responsibility of ensuring that those targets are adhered to.
+The IETF LLC is empowered to appoint a manager or to convene a committee that is
+responsible for this oversight function.
 
 Community members who have concerns about the performance of the REP can
 request that the IETF LLC investigate the matter. If the IETF LLC opts to
@@ -276,7 +277,7 @@ often through individual authors (or chairs, document shepherds, and area
 directors) and individual REP staff.
 
 In those interactions, those individuals might find problems with processes or
-might be inclined to make suggestions for improvement.  The goal of the RFC
+might be motivated to make suggestions for improvement.  The goal of the RFC
 Series Evolution program is to provide a single venue for discussion of changes
 to REP requirements, processes, and procedures.
 
@@ -299,7 +300,8 @@ who is allocated authority over content on that stream and responsibility to
 manage any problems that might arise in handling documents produced by that
 stream.  This document proposes that this aspect of the role continue.
 
-Stream managers are also involved in discussion of changes to REP processes.
+Stream managers are also involved in discussion of changes to REP processes and
+they contribute to the development of strategic direction for the RFC series.
 Rather than deal with issues of REP processes directly, stream managers are
 expected to initiate discussion or make proposals to the RFC Series Evolution
 program. To avoid conflicts of interest, it is expected that stream managers
@@ -369,7 +371,9 @@ shown in {{model-final}}.
 This arrangement means that any dependencies the REP might have for tools need
 to be coordinated via the entity responsible for managing the maintenance of
 tooling. The IETF LLC is ultimately responsible for ensuring that the tools
-maintenance function has processes for managing the requirements of the REP.
+maintenance function has processes for managing the requirements of the REP.  As
+with the REP oversight functions, this might also be delegated at the discretion
+of the IETF LLC.
 
 If meeting new requirements from the RSOC require new or modified tooling, it
 is the responsibility of the REP to formulate requests regarding to tools to
@@ -388,7 +392,8 @@ be managed in a manner appropriate to the function that it serves.
 Any choice by the IETF LLC to delegate oversight responsibility to a committee
 might require that the committee will need decision-making processes. The IETF
 LLC is ultimately responsible for ensuring that these processes are appropriate
-and effective.
+and effective.  The IETF LLC processes regarding consultation with and
+accountability to the broader IETF community are deemed sufficient.
 
 The choice of leadership for the RFC Series Evolution program could become more
 important with a move to a system that lacks a single figurehead. Two measures
