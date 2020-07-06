@@ -308,6 +308,29 @@ program. To avoid conflicts of interest, it is expected that stream managers
 will be active participants - and not chairs - in this program.
 
 
+## Style Guide
+
+One question that arises when considering policy is that of the Style Guide
+{{?RFC7322}} and supporting material.  These materials are critical to the
+process of editing and therefore require that they be owned and maintained.
+
+The current process requires that the RFC Series Editor produce and maintain
+this material.  This document proposes that the RFC Series Evolution program
+become responsible for ownership of this material.
+
+However, it is recognized that the REP service will likely be the ones to
+encounter the need to make updates to material.  The RFC Series Evolution
+program will need clear processes for reporting problems.  As problems of this
+nature often arise during document processing, they can require expedient
+solutions.  To that end, the process should allow for the REP service to make
+and record decisions.
+
+The nature of the process the RFC Series Evolution program uses might change
+over time.  Any changes need to be clearly communicated and changes negotiated
+with the REP.  This negotiation is to be facilitated by the IETF LLC or their
+delegate.
+
+
 # Tooling
 
 Producing an RFC relies heavily on tools that help automate many aspects of the
@@ -375,12 +398,12 @@ maintenance function has processes for managing the requirements of the REP.  As
 with the REP oversight functions, this might also be delegated at the discretion
 of the IETF LLC.
 
-If meeting new requirements from the RSOC require new or modified tooling, it
-is the responsibility of the REP to formulate requests regarding to tools to
+If meeting new requirements set by the IETF LLC require new or modified tooling,
+it is the responsibility of the REP to formulate requests regarding to tools to
 the Tools Maintenance function.
 
-Any problems arising from this arrangement will be raised with the RSOC as they
-pertain to meeting operational goals.
+Any problems arising from this arrangement will be raised with the IETF LLC as
+they pertain to meeting operational goals.
 
 
 # Management of Individual Functions
@@ -446,7 +469,7 @@ experience of RSOC procedures and former personnel might be used as a resource.
 
 This proposal does not describe a role for a RFC Series Editor.
 
-The functions previous served by this individual are devolved into several
+The functions previously served by this individual are devolved into several
 pieces. The REP function is expanded to cover both RFC Production Center (RPC)
 and RFC Publisher as well as the operational management responsibilities
 formerly adopted by the RFC Series Editor.
