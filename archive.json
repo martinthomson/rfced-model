@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2020-07-30T00:27:13.498101+00:00",
+  "timestamp": "2020-08-02T00:29:07.910456+00:00",
   "repo": "martinthomson/rfced-model",
   "labels": [
     {
@@ -49,6 +49,23 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 1,
+      "id": "MDU6SXNzdWU2Njg3NDgyMTY=",
+      "title": "Go into more detail about why",
+      "url": "https://github.com/martinthomson/rfced-model/issues/1",
+      "state": "OPEN",
+      "author": "martinthomson",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Eliot was looking for a little more meat on the rationale behind some of the design decisions.",
+      "createdAt": "2020-07-30T13:49:57Z",
+      "updatedAt": "2020-07-30T13:49:57Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": []
 }
