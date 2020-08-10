@@ -54,7 +54,7 @@ process of editing and publication of RFCs.
 
 The process of RFC editing and publication takes inputs in the form of
 documents that are approved for publication by one of four streams (IETF, IRTF,
-IAB, and Idependent Submissions). The output is an RFC.
+IAB, and Independent Submissions). The output is an RFC.
 
 Generally speaking, this system is successful if RFCs are produced at a rate
 approximating the rate that documents are approved for publication.  In addition
@@ -68,9 +68,15 @@ serves continually evolves.  The current system has evolved out of a relatively
 simple system, into something like what is described in {{!MODEL}} with multiple
 discrete roles and somewhat complex interactions between each.
 
-This document attempts to describe an evolution of the current model, drawing on
-experience from successes and failures from operating that model, but based
-purely on the very high-level abstraction of that system.
+The goal of this document is to ensure that the RFC series can continue to serve
+as a venue for the publication of documents that are relevant to the Internet.
+To that end, it aims to define a system for administering the editing and
+publication process.
+
+This aims to be a lightweight system that uses community engagement and
+transparency as the primary mechanisms for ensuring accountability.  This system
+avoids vesting control in an individual or body with closed membership,
+preferring open processes for critical strategic functions.
 
 This document starts out by building from a simple (even simplistic) model of
 the system, then builds that out incrementally.  The goal is to progressively
@@ -194,7 +200,7 @@ with the IETF LLC.
 
 Setting the policies that set targets for REP performance and more detailed
 requirements for operation of their functions has historically been delegated to
-the RSOC.  This document proposes separating that function.  The goal is to
+the RSE.  This document proposes separating that function.  The goal is to
 improve the ability of the community (across all streams) to set and evolve
 policies.
 
@@ -464,8 +470,22 @@ disbanded. Many of the functions provided by the RSOC are now an IETF LLC
 responsibility in this model. If the IETF LLC decides to form a committee, the
 experience of RSOC procedures and former personnel might be used as a resource.
 
+It might be necessary on occasion to seek the guidance of experts in fields in
+which the community does not feel is well represented.  Requirements discussed
+thus far include archival, publishing, and legal expertise, though this is not a
+definitive set.  Consulting or contracting for specialized expertise can be
+performed on behalf of the RFC Series Evolution program by the IETF LLC, after
+consultation and discussion in the program.
 
-# Notable Differences from Version 2
+
+# Changes from Version 2
+
+This document describes a structure that appears quite different from current
+practice.  This section addresses significant differences and similarities with
+the existing system.
+
+
+## No RFC Series Editor
 
 This proposal does not describe a role for a RFC Series Editor.
 
@@ -491,11 +511,51 @@ Moving away from a model where a single individual is involved in setting
 direction for the RFC Series is significant.  This proposal vests that control
 in a consensus-based body instead, which means that decisive action is likely no
 longer a feature of this system.  As the emphasis of the group is on longer-term
-strategy, this is not anticipated to be a practical problem.
+strategy, this is not anticipated to be a practical problem.  This further
+assumes that the required rate of change matches that of the recent past in that
+changes to the operation of the series will be not be extensive or rapid.
+
+
+## Preserved Aspects of Current Practice
+
+This document does not disrupt critical functions involved in RFC editing and
+publication.  There is general agreement that the continued publication of RFCs
+remains an important goal.  Disruptive changes to this part of the system would
+be counterproductive.
 
 This proposal combines the RFC Production Center and RFC Publisher functions.
 These have been conjoined in practice for many years already and so this merely
 formalizes a standing arrangement.
+
+
+## Motivating Principles
+
+The proposed structure is motivated by the following principles:
+
+Community ownership:
+
+: The community at large owns the outcomes of this process and so it needs to
+own the process too.
+
+Open participation:
+
+: The principle of open participation in standardization has been critical to
+success in the IETF.  That provides a template for participation and governance
+of this process.
+
+Transparency:
+
+: Transparency is the most important part of ensuring that actors are
+accountable.  Avoiding decisions made in closed forums - or by individuals -
+ensures that the community is best able to understand and contribute to the
+operation of the system.
+
+Divestiture of responsibility:
+
+: The title of RFC Series Editor has in the past been held by individuals with a
+remarkably broad set of skills.  Rather than dictate that an individual with the
+diverse traits be selected, this design distributes that responsibility.  This
+allows for more flexibility and specialization.
 
 
 # Documentation Requirements
