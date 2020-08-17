@@ -458,12 +458,11 @@ and dealing with dispute or contention is left to the IETF LLC.
 Many documents involve actions for IANA that are processed as part of the REP
 processing. These processes need to be captured and documented.
 
-This draft describes a model whereby the RFC Series Advisory Group and the RFC
-Series Editorial Board have no future as these are functions that serve the a
-role that does not exist in this model.  These august bodies embody a great deal
-of collected wisdom regarding the RFC Series.  It is this author's earnest hope
-that these individuals will continue to lend their efforts in the form of
-contributions to the development of strategy.
+This draft describes a model whereby the RFC Series Advisory Group has no future
+as this is a function that serves a role that does not exist in this model.
+This group embodies a great deal of collected wisdom regarding the RFC Series.
+It is this author's earnest hope that these individuals will continue to lend
+their efforts in the form of contributions to the development of strategy.
 
 This draft proposes that the RFC Series Oversight Committee (RSOC) be
 disbanded. Many of the functions provided by the RSOC are now an IETF LLC
