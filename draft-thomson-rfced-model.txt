@@ -4,9 +4,9 @@
 
 rfced-future                                                  M. Thomson
 Internet-Draft                                                   Mozilla
-Updates: 4844, 6635 (if approved)                         10 August 2020
+Updates: 4844, 6635 (if approved)                         17 August 2020
 Intended status: Informational                                          
-Expires: 11 February 2021
+Expires: 18 February 2021
 
 
             A Proposed Model for RFC Editing and Publication
@@ -53,7 +53,7 @@ Status of This Memo
 
 
 
-Thomson                 Expires 11 February 2021                [Page 1]
+Thomson                 Expires 18 February 2021                [Page 1]
 
 Internet-Draft              RFC Editor Model                 August 2020
 
@@ -63,7 +63,7 @@ Internet-Draft              RFC Editor Model                 August 2020
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 February 2021.
+   This Internet-Draft will expire on 18 February 2021.
 
 Copyright Notice
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Thomson                 Expires 11 February 2021                [Page 2]
+Thomson                 Expires 18 February 2021                [Page 2]
 
 Internet-Draft              RFC Editor Model                 August 2020
 
@@ -165,7 +165,7 @@ Internet-Draft              RFC Editor Model                 August 2020
 
 
 
-Thomson                 Expires 11 February 2021                [Page 3]
+Thomson                 Expires 18 February 2021                [Page 3]
 
 Internet-Draft              RFC Editor Model                 August 2020
 
@@ -221,7 +221,7 @@ Internet-Draft              RFC Editor Model                 August 2020
 
 
 
-Thomson                 Expires 11 February 2021                [Page 4]
+Thomson                 Expires 18 February 2021                [Page 4]
 
 Internet-Draft              RFC Editor Model                 August 2020
 
@@ -277,7 +277,7 @@ Internet-Draft              RFC Editor Model                 August 2020
 
 
 
-Thomson                 Expires 11 February 2021                [Page 5]
+Thomson                 Expires 18 February 2021                [Page 5]
 
 Internet-Draft              RFC Editor Model                 August 2020
 
@@ -333,7 +333,7 @@ Internet-Draft              RFC Editor Model                 August 2020
 
 
 
-Thomson                 Expires 11 February 2021                [Page 6]
+Thomson                 Expires 18 February 2021                [Page 6]
 
 Internet-Draft              RFC Editor Model                 August 2020
 
@@ -389,7 +389,7 @@ Internet-Draft              RFC Editor Model                 August 2020
 
 
 
-Thomson                 Expires 11 February 2021                [Page 7]
+Thomson                 Expires 18 February 2021                [Page 7]
 
 Internet-Draft              RFC Editor Model                 August 2020
 
@@ -445,7 +445,7 @@ Internet-Draft              RFC Editor Model                 August 2020
 
 
 
-Thomson                 Expires 11 February 2021                [Page 8]
+Thomson                 Expires 18 February 2021                [Page 8]
 
 Internet-Draft              RFC Editor Model                 August 2020
 
@@ -501,7 +501,7 @@ Internet-Draft              RFC Editor Model                 August 2020
 
 
 
-Thomson                 Expires 11 February 2021                [Page 9]
+Thomson                 Expires 18 February 2021                [Page 9]
 
 Internet-Draft              RFC Editor Model                 August 2020
 
@@ -557,7 +557,7 @@ Internet-Draft              RFC Editor Model                 August 2020
 
 
 
-Thomson                 Expires 11 February 2021               [Page 10]
+Thomson                 Expires 18 February 2021               [Page 10]
 
 Internet-Draft              RFC Editor Model                 August 2020
 
@@ -613,7 +613,7 @@ Internet-Draft              RFC Editor Model                 August 2020
 
 
 
-Thomson                 Expires 11 February 2021               [Page 11]
+Thomson                 Expires 18 February 2021               [Page 11]
 
 Internet-Draft              RFC Editor Model                 August 2020
 
@@ -625,12 +625,11 @@ Internet-Draft              RFC Editor Model                 August 2020
    documented.
 
    This draft describes a model whereby the RFC Series Advisory Group
-   and the RFC Series Editorial Board have no future as these are
-   functions that serve the a role that does not exist in this model.
-   These august bodies embody a great deal of collected wisdom regarding
-   the RFC Series.  It is this author's earnest hope that these
-   individuals will continue to lend their efforts in the form of
-   contributions to the development of strategy.
+   has no future as this is a function that serves a role that does not
+   exist in this model.  This group embodies a great deal of collected
+   wisdom regarding the RFC Series.  It is this author's earnest hope
+   that these individuals will continue to lend their efforts in the
+   form of contributions to the development of strategy.
 
    This draft proposes that the RFC Series Oversight Committee (RSOC) be
    disbanded.  Many of the functions provided by the RSOC are now an
@@ -669,7 +668,8 @@ Internet-Draft              RFC Editor Model                 August 2020
 
 
 
-Thomson                 Expires 11 February 2021               [Page 12]
+
+Thomson                 Expires 18 February 2021               [Page 12]
 
 Internet-Draft              RFC Editor Model                 August 2020
 
@@ -725,7 +725,7 @@ Internet-Draft              RFC Editor Model                 August 2020
 
 
 
-Thomson                 Expires 11 February 2021               [Page 13]
+Thomson                 Expires 18 February 2021               [Page 13]
 
 Internet-Draft              RFC Editor Model                 August 2020
 
@@ -781,7 +781,7 @@ Internet-Draft              RFC Editor Model                 August 2020
 
 
 
-Thomson                 Expires 11 February 2021               [Page 14]
+Thomson                 Expires 18 February 2021               [Page 14]
 
 Internet-Draft              RFC Editor Model                 August 2020
 
@@ -837,7 +837,7 @@ Internet-Draft              RFC Editor Model                 August 2020
 
 
 
-Thomson                 Expires 11 February 2021               [Page 15]
+Thomson                 Expires 18 February 2021               [Page 15]
 
 Internet-Draft              RFC Editor Model                 August 2020
 
@@ -893,4 +893,4 @@ Author's Address
 
 
 
-Thomson                 Expires 11 February 2021               [Page 16]
+Thomson                 Expires 18 February 2021               [Page 16]
